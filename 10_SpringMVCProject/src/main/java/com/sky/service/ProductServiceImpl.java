@@ -21,8 +21,11 @@ public class ProductServiceImpl implements ProductService{
 		}
 	}
 	
-	public List<Product> getProduct()
-	{
+	
+
+	@Override
+	public List<Product> getProducts() {
+		// TODO Auto-generated method stub
 		return productRepository.getProducts();
 	}
 

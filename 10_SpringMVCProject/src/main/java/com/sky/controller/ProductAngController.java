@@ -21,7 +21,7 @@ public class ProductAngController {
 	@RequestMapping(value="/product",method=RequestMethod.GET,  consumes = "application/json", produces = "application/json" )
 	public@ResponseBody List<Product> getProduct()
 	{
-		return productService.getProduct();
+		return productService.getProducts();
 		
 	}
 	

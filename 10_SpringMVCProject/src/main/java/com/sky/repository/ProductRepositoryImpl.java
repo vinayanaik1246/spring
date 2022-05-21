@@ -22,17 +22,13 @@ public class ProductRepositoryImpl implements ProductRepository {
 		
 	}
 	
-	
-	public List<Product> getProduct()
-	{
-		return products;
-	}
+
 
 
 	@Override
 	public List<Product> getProducts() {
 		// TODO Auto-generated method stub
-		return null;
+		return products;
 	}
 
 

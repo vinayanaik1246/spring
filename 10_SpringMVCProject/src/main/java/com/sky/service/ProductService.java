@@ -10,7 +10,7 @@ public interface ProductService {
 	public void addProduct(Product product);
 	
 	
-	public List<Product> getProduct();
+	public List<Product> getProducts();
 	
 
 }
